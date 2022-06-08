@@ -27,7 +27,8 @@ body {
     #e1306c,
     #fd1d1d
   );
-}
+  animation: moveLogo 5s ease-in infinite;
+  }
 
 .container {
   position: absolute;
@@ -38,6 +39,25 @@ body {
   border: 15px solid #f2f2f2;
   border-radius: 20%;
 }
+
+@keyframes moveLogo {
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-30px);
+  }
+  50{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(30px)
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
 .lens {
   position: absolute;
   width: 150px;
