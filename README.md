@@ -26,7 +26,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.im.ge/2022/07/27/FhBeyF.png"  />
+  <img src="https://i.im.ge/2022/07/27/FhBeyF.png"  />
 </div>
 
 ###
